@@ -10,7 +10,7 @@ install:
 	@chmod +x $(SCRIPT_PATH)
 	@sudo ln -sf $(SCRIPT_PATH) $(BIN_DIR)/$(SYMLINK_NAME)
 	@echo "Installation is done! Run 'neobat' now!"
-	
+
 # uninstall command
 uninstall:
 	@echo "Uninstalling neobat.."
@@ -22,7 +22,9 @@ help:
 	@echo "Available targets:"
 	@echo "	make install	- Install the script as a global command"
 	@echo "	make uninstall	- Remove the command"
-	@echo "	make help		- Show this help message"
+	@echo "	make help	- Show this help message"
+	@echo
+	@echo "get more info - https://github.com/yumeniown/neobat"
 
 # default
 default: help
