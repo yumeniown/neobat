@@ -23,13 +23,19 @@ A simple and tiny CLI tool to display battery information of your device with a 
 ```
     sudo make uninstall
 ```
+#### To get help informaiton
+
+```
+    sudo make help 
+```
+
 ## Usage:
 
 ```
 neobat
 ```
 <div align="center">
-  <img src="./preview/neobat.png" alt="neobat preview" width="50%">
+  <img src="./preview/neobat.png" alt="neobat preview" width="65%">
 </div>
 
 #### To set your own ASCII art you need to follow these steps:
@@ -43,11 +49,10 @@ cd ../ascii_art/ && python3 ascii.py <logo_path> width
 ```
 And finally your ASCII art will be saved in the logo.txt
 
-
 #### License
 
 This project is distributed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](LICENSE).  
 You are free to share the project for non-commercial purposes, but you must give appropriate credit, and you may not modify or create derivative works.  
 For more details, see the [LICENSE](LICENSE) file.
 
-<h5></h5> <div align="center"> <p> <img src="https://imgur.com/n80EV1n.gif" width="50%"/> </p> </div>
+<h5></h5> <div align="center"> <p> <img src="https://imgur.com/n80EV1n.gif" width="65%"/> </p> </div>
