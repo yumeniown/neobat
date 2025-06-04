@@ -49,6 +49,19 @@ cd ../ascii_art/ && python3 ascii.py <logo_path> width
 ```
 And finally your ASCII art will be saved in the logo.txt
 
+#### To get help message 
+
+```
+    neobat --help 
+```
+
+#### To get information about current version 
+
+```
+    neobat --version
+```
+
+
 #### License
 
 This project is distributed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](LICENSE).  
